@@ -6,23 +6,23 @@ public class Input02 {
         JOptionPane.showMessageDialog(null,
                 "There's no input here, just a message",
                 "Title",
-                0);
+                2);
 
         
         String input1 = (String)JOptionPane.showInputDialog(null,
-                "Is this a question?",
-                "Dialog Title",
-                2,
+                "What question do you have?",
+                "Title",
+                3,
                 null,
                 null,
-                "Type something here.");
+                "Type here.");
         
         
-        String[] acceptableValues = {"Choice 1", "Choice 2", "Choice 3"};
+        String[] acceptableValues = {"Black", "Blue", "Red"};
         String input2 = (String)JOptionPane.showInputDialog(null,
-                "Is this a question?",
-                "Dialog Title",
-                2,
+                "Which one is your favorite color?",
+                "Choose Color",
+                1,
                 null,
                 acceptableValues,
                 acceptableValues[1]);
