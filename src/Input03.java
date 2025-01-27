@@ -7,11 +7,11 @@ class Input03 {
         Scanner scanner = new Scanner(System.in);
         //Find and print the sum of three integers entered by the user
        System.out.print("Enter the integers");
-        int u = scanner.nextInt();
-        int a = scanner.nextInt();
-        int r = scanner.nextInt();
+        int sum1 = scanner.nextInt();
+        int sum2 = scanner.nextInt();
+        int sum3 = scanner.nextInt();
 
-        int sum = u + a + r;
+        int sum = sum1 + sum2 + sum3;
         System.out.println("Sum of the integers"+sum);
         
         
